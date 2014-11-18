@@ -95,7 +95,7 @@ exports['applyEach'] = function (test) {
         }, 100);
     };
     var two = function (val, cb) {
-        test.equal(val, 5);
+        test.equal(val, 0);
         setTimeout(function () {
             call_order.push('two');
             cb(null, 2);
