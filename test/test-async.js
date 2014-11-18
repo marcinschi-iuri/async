@@ -100,6 +100,7 @@ exports['applyEach'] = function (test) {
             call_order.push('two');
             cb(null, 2);
         }, 50);
+        
     };
     var three = function (val, cb) {
         test.equal(val, 5);
